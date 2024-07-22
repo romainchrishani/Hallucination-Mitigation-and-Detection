@@ -75,7 +75,7 @@ def display_chat_history(chain, session_state, questions):
     workbook.save("ChatHistory.xlsx")
     print("Chat history saved to ChatHistory.xlsx")
 
-os.environ["DEEPINFRA_API_TOKEN"] = "wUp54XhDTB1htN0ios9N8JMSg9rKpedN"
+os.environ["DEEPINFRA_API_TOKEN"] = "wUp54XhDTBrKpedN"
 
 def create_conversational_chain(vector_store):
     local_llm = DeepInfra(model_id="mistralai/Mistral-7B-Instruct-v0.1")
